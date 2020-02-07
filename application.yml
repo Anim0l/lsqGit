@@ -3,12 +3,16 @@ spring:
       active: dev
 
 ---
+server:
+   port: 8021
 spring:
    profiles: dev
    application:
       name: springcloud-config
 
 ---
+server:
+   port: 8022
 spring:
    profiles: test
    application:
